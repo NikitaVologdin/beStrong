@@ -1,0 +1,35 @@
+$mainColor : white;
+$fontFamily : 'Futura PT', sans-serif;
+$menuFontSize : 3vw;
+$menuColor : black;
+
+// .planHeading
+$h2Vw : 1.7vw;
+$h2Min : 12px;
+$h2Max : 32px; 
+
+$pVw : 1vw;
+$pMin : 10px;
+$pMax : 28px; 
+
+// .aboutUs
+$h2VwAboutUs : 3vw;
+$h2MinAboutUs : 12px;
+$h2MaxAboutUs : 60px; 
+
+$h3VwAboutUs : 0.9vw;
+$h3MinAboutUs : 8px;
+$h3MaxAboutUs : 15px; 
+
+$h4VwAboutUs : 1.5vw;
+$h4MinAboutUs : 12px;
+$h4MaxAboutUs : 30px; 
+
+$pVwAboutUs : 1vw;
+$pMinAboutUs : 10px;
+$pMaxAboutUs : 28px;
+
+
+// p - @include responsive-font($pVwAboutUs, $pMinAboutUs, $pMaxAboutUs);
+// h2 - @include responsive-font(2vw, $h2Min, h2Max);
+// h1- @include responsive-font(4vw, 25px, 75px);
